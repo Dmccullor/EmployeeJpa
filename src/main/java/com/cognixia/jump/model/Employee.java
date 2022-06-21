@@ -24,6 +24,10 @@ public class Employee {
 	
 	@Column
 	private String title;
+	
+	public Employee() {
+		
+	}
 
 	public Employee(Integer id, String firstName, String lastName, String department, String title) {
 		super();
